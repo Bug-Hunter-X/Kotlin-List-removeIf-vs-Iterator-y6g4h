@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Kotlin when removing elements from a mutable list while iterating.  The `removeIf` function is generally safe, but directly manipulating the list during iteration can lead to unexpected results. This example showcases both approaches and explains why the iterator-based approach is preferred for safe list modification during iteration.
